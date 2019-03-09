@@ -1,8 +1,6 @@
 pipeline {
     agent {
-        shell {
-            echo" Hello There"
-            }
+       
     }
     stages {
         stage('Build') {
